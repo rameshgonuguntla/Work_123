@@ -15,5 +15,7 @@ System.out.println(” ConcurrentMap time elapsed milli” +
 ” “+ timeConcurrentMap);
 System.out.println(“Map:”+timeMap+”,Synch Map:”+timeSynchMap+”,Concurrent Map:”+timeConcurrentMap);
 assertTrue(timeMap > timeSynchMap && timeMap > timeConcurrentMap);
+Creat that file once"timeSynchMap"
+
 
 }
